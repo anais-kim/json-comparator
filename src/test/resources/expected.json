@@ -1,0 +1,22 @@
+/*
+{
+"invalidParam": "events[0].endDateTime",
+"errorMessage": "End date should be later than start date",
+"errorCode": "SCH400100"
+}
+*/
+{
+  "name": "Our first schedule",
+  "events": [
+    {
+//      "name": "weekly event",
+      "description": "this is weekly event",
+      "startDateTime": "2017-07-19T07: 00:00",
+      "endDateTime": "2017-07-20T12:00: 00"
+    }
+  ],
+ "range": {
+          "startDate": "2017-07-16",
+          "endDate": "2017-07-18"
+        }
+}
